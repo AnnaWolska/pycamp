@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Czego nie lubi Łukszek?",
+    "answers": [
+      "długopisów",
+      "talerzy",
+      "guzików",
+      "klocków"
+    ],
+    "right_answer": "c"
+  },
+    {
+    "question": "Czego nie lubi Arturek?",
+    "answers": [
+      "rysować",
+      "kulek",
+      "pstrągów",
+      "kremów nawilżających"
+    ],
+    "right_answer": "d"
+  },
+      {
+    "question": "Czego nie lubi Tatuś?",
+    "answers": [
+      "książek",
+      "porozrzucanych zabawek na podłodze",
+      "szpinaku",
+      "zupy pomidorowej"
+    ],
+    "right_answer": "b"
+  },
+        {
+    "question": "Czego nie lubi Mamusia?",
+    "answers": [
+      "bąbelków",
+      "łaskotania i dreszczy",
+      "kumkwatów",
+      "bolka i lolka"
+    ],
+    "right_answer": "b"
+  },
+        {
+    "question": "Czego nie lubią króliki?",
+    "answers": [
+      "słonka",
+      "słoni",
+      "brania na ręce",
+      "sznurówek"
+    ],
+    "right_answer": "c"
+  }
+]
