@@ -9,20 +9,21 @@ class InvalidValue(Exception):
     pass
 
 
-
 class Card:
     """Card abstraction"""
-    possible_colors = ["spades", "dimonds", "hearts", "clubs"]
-    possible_values = list(range(2,11)) + ["Ace","Jack","Queen","King"]
-    def __init__(self, value, color):
 
-        if color not in self.possible_colors:
-            raise  InvalidColor("Invalid color!")
-        self.color = self.possible_colors
+    possible_values = list(range(2, 11)) + ["Ace", "Jack", "Queen", "King"]
+    possible_colors = ["spades", "dimonds", "hearts", "clubs"]
+
+    def __init__(self, value, color):
 
         if value not in self.possible_values:
             raise  InvalidValue("Invalid value!")
-        self.value = self.possible_values
+        self.value = value
+
+        if color not in self.possible_colors:
+            raise  InvalidColor("Invalid color!")
+        self.color = color
 
     def __repr__(self):
         return f'{self.value},{self.color}'
@@ -44,5 +45,5 @@ class Card:
 #         self.deck = deck
 
 
-some_card = Card(8, "hearts")
-print(some_card.color, some_card.value)
+some_card = Card(8,"hearts")
+print("some_card.color, some_card.value",some_card.color, some_card.value)
