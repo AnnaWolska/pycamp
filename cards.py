@@ -46,4 +46,4 @@ class Card:
 
 
 some_card = Card(8,"hearts")
-print("some_card.color, some_card.value",some_card.color, some_card.value)
+# print("some_card.color, some_card.value",some_card.color, some_card.value)

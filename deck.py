@@ -7,12 +7,12 @@ class Deck:
 
         for color in Card.possible_colors:
             for value in Card.possible_values:
-                print(color,value)
+                # print(color,value)
                 self.cards.append(
                     Card(color=color, value=value)
                 )
-                print(self.cards)
-                print(len(self.cards))
+                # print(self.cards)
+                # print(len(self.cards))
 
     def __repr__(self):
         return  f'{self.cards}'
@@ -25,6 +25,6 @@ class Deck:
 
 
 deck = Deck()
-print(deck)
+# print(deck)
 
 
