@@ -69,3 +69,4 @@ class Game:
         print("Kociec gry, wygrania krupiera!")
 
 
+    # main,super,prywatne w game.py,
